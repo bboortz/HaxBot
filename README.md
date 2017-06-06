@@ -1,10 +1,32 @@
 # HaxBot
 
+<a href='https://travis-ci.org/sebdah/git-pylint-commit-hook'><img src='https://secure.travis-ci.org/bboortz/HaxBot.png?branch=master'></a>
+
 ## Setting up new environment
 
-As root:
+* git clone https://github.com/fheutz/HaxBot.git
+* ./script/bootstrap.sh
 
-./setup_devenv.sh
+
+## Dependencies
+
+### System Software
+
+* avr-libc 
+* avrdude 
+* binutils 
+* gcc-avr 
+* git 
+* wget
+
+
+### Arduino Software
+
+* https://downloads.arduino.cc/arduino-1.8.2-linux64.tar.xz
+
+
+### git SubModules
+* Arduino-Makefile (https://github.com/WeAreLeka/Arduino-Makefile)
 
 
 ## Required Arduino Libraries
